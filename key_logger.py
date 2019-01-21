@@ -12,7 +12,3 @@ def on_press(key):
 def on_release(key):
     if key == key.esc:
         return False
-
-
-with Listener(on_press=on_press, on_release=on_release) as listener:
-    listener.join()
